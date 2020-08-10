@@ -1,0 +1,55 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Katmanlı Mimari",
+      "description": "Hazırlanmış projelere yeni isteklerin uygulanması projeleri daha sonrasında daha karmış bir hale getirir. Kodların okunabilirliği ve güncellenmesi gittikçe daha da zorlaşır. Bu sorunu ortadan kaldırabilmek amacıyla Katmanlı Mimari yapısı geliştirilmiştir. Katmanlı Mimari, yazılımcıların projelerini daha düzenli geliştirmesini sağlar, hata yönetimini kolaylaştırır ve kodun okunabilirliğini arttırır. Katmanlı Mimari sayesinde proje adımlarını belli katmanlara ayırarak yönetimini daha kolay olması sağlanır. Ayrıca takım çalışması yapabilmemizi sağlar."
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "title": "ASP.NET ve ASP.NET CORE",
+      "description": ".NET FRAMEWORK, Microsoft teknolojileriyle masaüstü ya da web ortamında projeler geliştirmemizi sağlayan bir uygulama çatısıdır. ASP.NET ise .NET FRAMEWORK üzerine kurulu, web uygulamaları geliştirmemizi sağlayan bir framework(çatı-çerçeve) olarak ortaya çıkmıştır. ASP.NET bir programlama dili değilidir. C# veya VB dillerini kullanarak bu framework üzerinden web siteleri geliştirebiliriz. Masaüstü uygulama geliştirmemizi sağlayan C# programlama dili için ise Windows Forms çatısı(framework) vardır. Web uygulama geliştirirken kullandığımız ASP.NET çatısı ASP.NET FORMS ve ASP.NET MVC olarak ikiye ayrılmaktadır. Artık yeni projeler geliştirmek için ASP.NET FORMS kullanılmaz. Daha eski ve kullanışsız bir teknoloji olarak görülmektedir. ASP.NET MVC ise modern web siteleri geliştirmek için gerekli esnekliği ve kolaylığı bize sunmaktadır.T CORE ise tıpkı .NET FRAMEWORK gibi bir uygulama çatısıdır. Açık kaynaklı olarak geliştirilmesine devam edilmektedir. Cross Plartform(bağımsız platform)olarak çaldern bir platformdur. .NET CORE ile birlikte yazılımcılar MacOs, Linux veya Android platfortmlarına uygulama yazabilirler. C#, F# veya VB programlama dilleriyle .NET CORE üzerinden uygulama geliştirilebilir.ASP.NET CORE ise .net Core üzerine kurulmuş yine web uygulama geliştirmemizi sağlayan bir teknolojidir. ASP.NET CORE ile ASP.NET üzerinde geliştirebildiğimiz projeleri yine geliştirebiliriz. Farklı olarak web, Iot ve Cloud bazlı projeleri daha efektif ve esnek bir şekilde geliştirebilmemizi sağlar. MVC veya WEB API yaklaşımları ile de proje geliştirilebilir. Client-Side(Angular JS,Knockout JS, React JS ) framework ile tam uyum içindedir."
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "title": "SOLID Prensipleri",
+      "description": "SOLID; anlaşılır, gelişime açık ve tasarımsal sorunların olmadığı iyi bir yazılım üretebilmek için herkes tarafından kabul edilen ve uyulması gerekilen beş adet temel prensiptir. 1-Single Responsibility Principle(Tek Sorumluluk Prensibi): Her sınıf veya metot sadece bir işi yerine getiriyor olmalıdır. Bu prensip ilke olarak bir sınıfın birden fazla sorumluluğu olması durumuna karşı çıkmaktadır. Çünkü, sınıftaki sorumluluk sayısı arttıkça bağımlılık artar ve yeniden kullanılabilirlilik azalır. Ayrıca bakımı zorlaşır ve karmaşıklığa sebep olur. 2-Open-Closed Principle(Açık-Kapalı Prensibi): Kurulmuş sınıf ve metotların değişime kapalı ama gelişime her zaman açık olması beklenir. Bir yazılım ortaya çıkardığınız zaman daha sonrasında yazılımdan beklenilen yeni özellikler olursa bu güncellemeler çok kolay bir şekilde yapılabiliyor olmalıdır. Fakat yazılıma yeni davranışlar kazandırırken mevcut kod düzeni üzerinde değişiklik yapılmaması gerekir. Bu prensip bu duruma izin vermez. Yazılım üretirken ileride istenilebilecek güncellemeler olduğunu bilerek yeni sorumluluklar ekleme işlemlerinin çok kolay yapılabiliyor olmasını sağlamalısınız. 3-Liskov Substitution Principle(Yerine Geçme Prensibi): Bu prensibe göre alt sınıflar üst sınıfların yerini sorunsuz bir şekilde alabilmelilerdir. Alt sınıflardan oluşturulan nesneler üst sınıfların nesneleriyle tamamen yer değiştirebilmelidir. Bir sınıf kalıtım aldığı bir sınıfın tüm özelliklerini kullanmalıdır. Eğer kullanamadığı ve geriye boş değer döndürdüğü bir sorumluluk olursa bu prensibe uyulmadan yazılmış bir kod yapısı var demektir. 4-Interface Segregation Principle(Arayüz Ayırım Prensibi): Bir Interface tanımı yaparken tüm sorumlulukları bu ınterface üzerinde tanımlamak yerine her sorumluluğa özgü bir Interface tanımlanması gerektiğini söyler. Pek çok elemanı olan büyük bir Inerface yerine işlevsel daha küçük Innterface’ler oluşturulmalıdır. Sınıflar şablon olarak kullandığı bir Interface’in tüm özelliklerini kullanmak zorundadır. Bir sınıf kendisi için geçerli olmayan bir özelliği kullanmak zorunda kalmamalıdır. Bu sebeple tüm özellikleri farklı Interface’lere dağıtmak daha doğru olacaktır. Örnek verecek olursak bir koşma,uçma ve yüzme sorumluluklarına sahip bir Hayvan Interface’ı tanımladığımız zaman Kuş Sınıfı bu şablonu implements ettiğinde ortaya sorun çıkar. Çünkü kuş için yüzme sorumluluğu yoktur. Bu nedenle bu üç sorumluluğu ayrı Interface’lerde tanımlamak bu prensibe uygun bir yöntem olacaktır."
+    },
+    {
+      "id": 4,
+      "categoryId": 4,
+      "title": "SOLID",
+      "description": "SOLID; anlaşılır, gelişime açık ve tasarımsal sorunların olmadığı iyi bir yazılım üretebilmek için herkes tarafından kabul edilen ve uyulması gerekilen beş adet temel prensiptir. 1-Single Responsibility Principle(Tek Sorumluluk Prensibi): Her sınıf veya metot sadece bir işi yerine getiriyor olmalıdır. Bu prensip ilke olarak bir sınıfın birden fazla sorumluluğu olması durumuna karşı çıkmaktadır. Çünkü, sınıftaki sorumluluk sayısı arttıkça bağımlılık artar ve yeniden kullanılabilirlilik azalır. Ayrıca bakımı zorlaşır ve karmaşıklığa sebep olur. 2-Open-Closed Principle(Açık-Kapalı Prensibi): Kurulmuş sınıf ve metotların değişime kapalı ama gelişime her zaman açık olması beklenir. Bir yazılım ortaya çıkardığınız zaman daha sonrasında yazılımdan beklenilen yeni özellikler olursa bu güncellemeler çok kolay bir şekilde yapılabiliyor olmalıdır. Fakat yazılıma yeni davranışlar kazandırırken mevcut kod düzeni üzerinde değişiklik yapılmaması gerekir. Bu prensip bu duruma izin vermez. Yazılım üretirken ileride istenilebilecek güncellemeler olduğunu bilerek yeni sorumluluklar ekleme işlemlerinin çok kolay yapılabiliyor olmasını sağlamalısınız. 3-Liskov Substitution Principle(Yerine Geçme Prensibi): Bu prensibe göre alt sınıflar üst sınıfların yerini sorunsuz bir şekilde alabilmelilerdir. Alt sınıflardan oluşturulan nesneler üst sınıfların nesneleriyle tamamen yer değiştirebilmelidir. Bir sınıf kalıtım aldığı bir sınıfın tüm özelliklerini kullanmalıdır. Eğer kullanamadığı ve geriye boş değer döndürdüğü bir sorumluluk olursa bu prensibe uyulmadan yazılmış bir kod yapısı var demektir. 4-Interface Segregation Principle(Arayüz Ayırım Prensibi): Bir Interface tanımı yaparken tüm sorumlulukları bu ınterface üzerinde tanımlamak yerine her sorumluluğa özgü bir Interface tanımlanması gerektiğini söyler. Pek çok elemanı olan büyük bir Inerface yerine işlevsel daha küçük Innterface’ler oluşturulmalıdır. Sınıflar şablon olarak kullandığı bir Interface’in tüm özelliklerini kullanmak zorundadır. Bir sınıf kendisi için geçerli olmayan bir özelliği kullanmak zorunda kalmamalıdır. Bu sebeple tüm özellikleri farklı Interface’lere dağıtmak daha doğru olacaktır. Örnek verecek olursak bir koşma,uçma ve yüzme sorumluluklarına sahip bir Hayvan Interface’ı tanımladığımız zaman Kuş Sınıfı bu şablonu implements ettiğinde ortaya sorun çıkar. Çünkü kuş için yüzme sorumluluğu yoktur. Bu nedenle bu üç sorumluluğu ayrı Interface’lerde tanımlamak bu prensibe uygun bir yöntem olacaktır."
+    },
+    {
+      "title": "deneme",
+      "description": "Bu bir deneme yazısıdır.",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Java"
+    },
+    {
+      "id": 2,
+      "name": "C#"
+    },
+    {
+      "id": 3,
+      "name": "Javascript"
+    },
+    {
+      "id": 4,
+      "name": "Python"
+    },
+    {
+      "id": 5,
+      "name": "Veri Bilimi"
+    }
+  ]
+}
